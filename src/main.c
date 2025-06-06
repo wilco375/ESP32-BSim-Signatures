@@ -19,5 +19,6 @@
 #include "esp_crt_bundle.h"
 #include "nvs.h"
 #include "nvs_flash.h"
+#include "cJSON.h"
 
 void app_main() {}
