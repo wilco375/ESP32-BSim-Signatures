@@ -2,8 +2,7 @@
 This repo contains a BSim signature database for ESP32 ESP-IDF libraries, and the source code to generate it.  
 The signature database also contains commonly used functions such as WiFi, Bluetooth and MQTT-related functions. It can be used with BSim to find standard ESP32 functions within compiled firmware without symbols.
 
-Signature database: `dist/signatures.mv.db`  
-ELF files used for signature database: `dist/firmware/firmware-<pio-espressif-version>.elf`
+Signature database: `dist/signatures.mv.db`
 
 ## Generating signatures database
 1. Install PlatformIO
