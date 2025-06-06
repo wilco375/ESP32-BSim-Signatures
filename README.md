@@ -8,9 +8,10 @@ ELF files used for signature database: `dist/firmware/firmware-<pio-espressif-ve
 ## Generating signatures database
 1. Install PlatformIO
 2. Activate PlatformIO venv, e.g. `source ~/.platformio/penv/bin/activate`
-3. Optionally, update downloaded espressif versions in `compile.sh`
-4. Run `bash compile.sh`
-5. The generated files can now be found in `dist/`
+3. Optionally, alter `platform.ini` to add or remove functions that should be included; compiler dead code elimination might remove other functions
+4. Optionally, update downloaded espressif versions in `compile.sh`
+5. Run `bash compile.sh`
+6. The generated files can now be found in `dist/`
 
 ## Using the signature database
 1. Start Ghidra
